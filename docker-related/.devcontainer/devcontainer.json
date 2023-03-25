@@ -40,7 +40,8 @@
 				"donjayamanne.githistory",
 				"oderwat.indent-rainbow",
 				"bradlc.vscode-tailwindcss",
-				"Wscats.vue"
+				"Wscats.vue",
+				"Zignd.html-css-class-completion"
 			]
 		}
 	}
