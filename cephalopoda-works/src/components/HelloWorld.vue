@@ -29,7 +29,7 @@
     </ul>
   </div>
   <br>
-  <p>HelloWorld / cephalopoda.works</p>
+  <p>HelloWorld / cephalopoda.works!!</p>
 </template>
 
 <script>
