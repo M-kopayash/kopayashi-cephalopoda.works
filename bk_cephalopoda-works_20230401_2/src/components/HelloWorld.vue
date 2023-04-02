@@ -3,6 +3,7 @@
     <h3>{{  msg }}</h3>
     <br>
     <p>@HelloWorld</p>
+    <p>test</p>
     <hr>
     </div>
 </template>
