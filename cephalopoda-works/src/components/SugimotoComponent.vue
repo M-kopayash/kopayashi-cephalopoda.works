@@ -9,7 +9,7 @@
   
 <script>
   export default {
-    name: 'SugimotoPhD',
+    name: 'SugimotoComponent',
     props: {
       msg: String
     }

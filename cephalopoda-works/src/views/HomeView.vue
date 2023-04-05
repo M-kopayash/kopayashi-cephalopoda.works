@@ -1,20 +1,20 @@
 <template>
   <div class="home">
-    <HomeMain/>
-    <UpdateHistory/>
+    <HomeComponent/>
+    <HistoryComponent/>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HomeMain from "@/components/HomeMain.vue";
-import UpdateHistory from '@/components/UpdateHistory.vue';
+import HomeComponent from "@/components/HomeComponent.vue";
+import HistoryComponent from '@/components/HistoryComponent.vue';
 
 export default defineComponent({
   name: 'HomeView',
   components: {
-    HomeMain,
-    UpdateHistory,
+    HomeComponent,
+    HistoryComponent,
   },
 });
 </script>

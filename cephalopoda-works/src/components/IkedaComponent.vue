@@ -9,7 +9,7 @@
 
 <script>
     export default {
-        name: 'IkedaPhD',
+        name: 'IkedaComponent',
         props: {
             msg: String
         }

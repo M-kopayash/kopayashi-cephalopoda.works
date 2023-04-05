@@ -1,17 +1,17 @@
 <template>
     <div>
-        <Ikeda msg="from sugimotoPhDView"/>
+        <IkedaComponent msg="from sugimotoPhDView"/>
     </div>
 </template>
 
 <script lang="ts">
     import { defineComponent } from 'vue';
-    import Ikeda from '@/components/IkedaPhD.vue';
+    import IkedaComponent from '@/components/IkedaComponent.vue';
 
     export default defineComponent({
-        name: 'IkedaPhDView',
+        name: 'IkedaView',
         components: {
-            Ikeda,
+            IkedaComponent,
         },
     });
 </script>

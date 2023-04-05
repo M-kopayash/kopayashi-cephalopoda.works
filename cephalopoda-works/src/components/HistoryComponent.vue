@@ -1,6 +1,5 @@
 <template>
-    <p>作っている人 → <a href="http://hakkouyarou.com/" target="_blank"><strong>発酵野郎様のブログサイト</strong></a></p>
-    <p>履歴：</p>
+    <h2>履歴（Homeが作れて来たら移動する）：</h2>
     <p>20230325：</p>
     <ul>
         <li>Nodeのバージョンを上げてDockerFileを再作成（18-alpine3.17）</li>

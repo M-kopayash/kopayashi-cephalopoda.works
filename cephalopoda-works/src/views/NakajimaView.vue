@@ -1,17 +1,17 @@
 <template>
     <div>
-        <Nakajima msg="from nakajimaPhDView"/>
+        <NakajimaComponent msg="from nakajimaPhDView"/>
     </div>
 </template>
 
 <script lang="ts">
     import { defineComponent } from 'vue';
-    import Nakajima from '@/components/NakajimaPhD.vue';
+    import NakajimaComponent from '@/components/NakajimaComponent.vue';
     
     export default defineComponent({
-        name: 'NakajimaPhDView',
+        name: 'NakajimaView',
         components: {
-            Nakajima,
+            NakajimaComponent,
         },
     });
 </script>

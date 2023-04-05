@@ -6,9 +6,9 @@
     <router-link to="/">Home</router-link>
     <router-link to="/ikeda">Ikeda</router-link>
     <router-link to="/nakajima">Nakajima</router-link>
-    <router-link to="/sugimoto">sugimoto</router-link>
-    <router-link to="/aboutSquid">cephalopod</router-link>
-    <router-link to="/gallery">gallery</router-link>
+    <router-link to="/sugimoto">Sugimoto</router-link>
+    <router-link to="/cephalopoda">Cephalopoda</router-link>
+    <router-link to="/gallery">Gallery</router-link>
     <router-link to="/about">About</router-link>
   </nav>
   <div>
@@ -42,7 +42,7 @@ img {
     width: 300px;
     height: auto;
     border: 1px solid black;
-    margin-top: 5px;
+    margin: 5px;
 }
 
 </style>

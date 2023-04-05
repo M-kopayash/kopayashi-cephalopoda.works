@@ -23,6 +23,16 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/SugimotoView.vue'),
   },
   {
+    path: '/cephalopoda',
+    name: 'cephalopoda',
+    component: () => import('@/components/CephalopodaComponent.vue'),
+  },
+  {
+    path: '/gallery',
+    name: 'gallery',
+    component: () => import('@/views/GalleryView.vue'),
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting

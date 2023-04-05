@@ -1,15 +1,15 @@
 <template>
-    <Sugimoto msg="from sugimotoPhDView"/>
+    <SugimotoComponent msg="from sugimotoView"/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import Sugimoto from '@/components/SugimotoPhD.vue';
+import SugimotoComponent from '@/components/SugimotoComponent.vue';
 
 export default defineComponent({
-  name: 'SugimotoPhDView',
+  name: 'SugimotoView',
   components: {
-    Sugimoto
+    SugimotoComponent
 },
 });
 </script>
