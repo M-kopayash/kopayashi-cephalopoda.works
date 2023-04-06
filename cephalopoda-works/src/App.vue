@@ -1,20 +1,18 @@
 <template>
-  <div>
-  </div>
-  <h1>【非公式】【未公認】<br>頭足類研究所準備室（仮）home</h1>
-  <nav>
-    <router-link to="/">Home</router-link>
-    <router-link to="/ikeda">Ikeda</router-link>
-    <router-link to="/nakajima">Nakajima</router-link>
-    <router-link to="/sugimoto">Sugimoto</router-link>
-    <router-link to="/cephalopoda">Cephalopoda</router-link>
-    <router-link to="/gallery">Gallery</router-link>
-    <router-link to="/about">About</router-link>
-  </nav>
-  <div>
-  </div>
+  <HeaderView/>
   <router-view/>
 </template>
+
+<script>
+import HeaderView from './views/HeaderView.vue';
+export default {
+  name: 'App',
+  components: {
+    HeaderView,
+  },
+}
+
+</script>
 
 <style lang="scss">
 #app {
@@ -25,19 +23,19 @@
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
+// nav {
+//   padding: 30px;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+//   a {
+//     font-weight: bold;
+//     color: #2c3e50;
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-    margin: 5px;
-  }
-}
+//     &.router-link-exact-active {
+//       color: #42b983;
+//     }
+//     margin: 5px;
+//   }
+// }
 img {
     width: 300px;
     height: auto;
