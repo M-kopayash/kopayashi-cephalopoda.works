@@ -20,3 +20,11 @@
     </ul>
     <p>20230312：ここにHelloWorldしたー</p>
 </template>
+
+<script>
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+    name: 'HistoryComponent',
+})
+</script>
