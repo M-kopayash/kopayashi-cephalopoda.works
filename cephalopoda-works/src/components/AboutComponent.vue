@@ -8,19 +8,22 @@
             <li>コンタクト</li>
             <li>所在地</li>
             <li>地図</li>
-            <li>更新履歴（やがてHomeから移動）</li>
         </ul>
-        <img src="../assets/images/3068.jpg" alt="squid-3068">
+        <div class="mt-6 mb-4 border-t bg-slate-500">
+            <hr>
+        </div>
     </div>
 </template>
 
 <script>
-    export default {
+import { defineComponent } from 'vue';
+
+    export default defineComponent({
         name: 'AboutComponent',
         props: {
             msg: String
         }
-    }
+    })
 </script>
 
 <style scoped>

@@ -1,11 +1,8 @@
 <template>
-  <h2>ここがHome</h2>
-  <p>これから書き足していきます。ボチボチやっていきますー。</p>
-  <p>サイトの構成はこんな感じで作ろうかなー（予定は未定で暫定なので決定ではない）</p>           
-  <p>作っている人 → <a href="http://hakkouyarou.com/" target="_blank"><strong>発酵野郎様のブログサイト</strong></a></p>
-  <div class="text-2xl font-bold underline">
-    <p>hello tailwindCSS</p>
-  </div>
+  <p class="mb-8">これから書き足していきます。ボチボチやっていきますー。</p>
+  <img src="../assets/images/1373.jpg" alt="squid-1373">
+  <br>
+  <p>作っている人 → <a href="http://hakkouyarou.com/" target="_blank" class="link"><strong>発酵野郎様のブログサイト</strong></a></p>
 </template>
 
 <script>
