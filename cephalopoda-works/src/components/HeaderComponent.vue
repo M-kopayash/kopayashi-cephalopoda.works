@@ -25,21 +25,35 @@
           </svg>
         </button>
         <div class="flex items-center mr-4">
-          <span class="text-white font-bold text-xl ml-2">イカタコメニュー</span>
+          <span class="font-bold text-base ml-2">イカタコメニュー</span>
         </div>
       </div>
     </div>
     <div :class="{'hidden': !isMenuOpen, 'block': isMenuOpen}" class="sm:flex flex-grow items-center">
-      <ul class="sm:flex flex-grow justify-end mt-4 sm:mt-0 sm:mr-4">
-        <li class="mr-6">
-          <a href="#" class="text-gray-300 hover:text-white">Home</a>
-          <router-link to="/ikeda">Ikeda</router-link>
-        </li>
-        <li class="mr-6">
-          <a href="#" class="text-gray-300 hover:text-white">About</a>
+      <ul class="sm:flex flex-grow justify-center mt-4 sm:mt-0 sm:mr-4">
+        <li>
+          <router-link to="/">Home</router-link>
         </li>
         <li>
-          <a href="#" class="text-gray-300 hover:text-white">Contact</a>
+          <router-link to="/ikeda">Ikeda</router-link>
+        </li>
+        <li>
+          <router-link to="/sugimoto">Sugimoto</router-link>
+        </li>
+        <li>
+          <router-link to="/cephalopoda">Cephalopoda</router-link>
+        </li>
+        <li>
+          <router-link to="/gallery">Gallery</router-link>
+        </li>
+        <li>
+          <router-link to="/about">About</router-link>
+        </li>
+        <li>
+          <router-link to="/history">History</router-link>
+        </li>
+        <li>
+          <router-link to="/kopa">kopa</router-link>
         </li>
       </ul>
     </div>
