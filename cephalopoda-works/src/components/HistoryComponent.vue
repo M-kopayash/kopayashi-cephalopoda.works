@@ -2,6 +2,11 @@
     <h2 class="mt-4">更新履歴：</h2>
     <div class="px-4 text-left max-w-[650px] mx-auto"> 
         <hr>
+        <p>20230413：</p>
+        <ul class="history-ul">
+            <li>スマフォ用にハンバーガーメニューを作ってみた（難しい…）</li>
+        </ul>
+        <hr>
         <p>20230412：</p>
         <ul class="history-ul">
             <li>全体にレイアウトを更新</li>

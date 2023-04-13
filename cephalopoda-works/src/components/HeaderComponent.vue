@@ -1,7 +1,7 @@
 <template>
     <p class="text-sm pt-8 font-normal">【非公式】【黙認】</p>
     <h1 class="pt-2">イカタコ研究所設立準備室</h1>
-    <div class="mt-6 mx-auto">
+    <!-- <div class="mt-6 mx-auto">
         <nav class="">
             <router-link to="/">Home</router-link>
             <router-link to="/ikeda">Ikeda</router-link>
@@ -12,10 +12,10 @@
             <router-link to="/about">About</router-link>
             <router-link to="/history">History</router-link>
         </nav>
-    </div>
+    </div> -->
 
 
-  <nav class="flex flex-wrap items-center justify-between p-4 bg-gray-900">
+  <nav class="flex flex-wrap  mt-4 ml-4">
     <div class="block sm:hidden">
       <div class="flex flex-row">
         <button class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-500 hover:text-white hover:border-white" @click="isMenuOpen = !isMenuOpen">
