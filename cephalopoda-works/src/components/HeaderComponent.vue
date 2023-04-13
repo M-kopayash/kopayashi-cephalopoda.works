@@ -15,7 +15,6 @@
     </div>
 
 
-
   <nav class="flex flex-wrap items-center justify-between p-4 bg-gray-900">
     <div class="block sm:hidden">
       <div class="flex flex-row">
