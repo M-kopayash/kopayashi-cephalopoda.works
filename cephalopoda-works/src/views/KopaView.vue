@@ -1,17 +1,17 @@
 <template>
     <div>
-        <NakajimaComponent msg="from nakajimaPhDView"/>
+        <KopaComponent msg="from kopaPhDView"/>
     </div>
 </template>
 
 <script lang="ts">
     import { defineComponent } from 'vue';
-    import NakajimaComponent from '@/components/NakajimaComponent.vue';
+    import KopaComponent from '@/components/KopaComponent.vue';
     
     export default defineComponent({
-        name: 'NakajimaView',
+        name: 'KopaView',
         components: {
-            NakajimaComponent,
+            KopaComponent,
         },
     });
 </script>

@@ -13,9 +13,9 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('@/views/IkedaView.vue'),
   },
   {
-    path: '/nakajima',
-    name: 'nakajima',
-    component: () => import('@/views/NakajimaView.vue'),
+    path: '/kopa',
+    name: 'kopa',
+    component: () => import('@/views/KopaView.vue'),
   },
   {
     path: '/sugimoto',
@@ -39,7 +39,12 @@ const routes: Array<RouteRecordRaw> = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
+  },
+  {
+    path: '/history',
+    name: 'history',
+    component: () => import('@/components/HistoryComponent.vue'),
+  },
 ]
 
 const router = createRouter({
