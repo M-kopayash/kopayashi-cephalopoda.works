@@ -29,6 +29,11 @@
       </div>
     </div>
     <div :class="{'hidden': !isMenuOpen, 'block': isMenuOpen}" class="sm:flex flex-grow ">
+      <div  :class="{'hidden': !isMenuOpen, '': isMenuOpen}" class="flex flex-col">
+        <p>test</p>
+        <p>testing</p>
+      
+      </div>
       <div class="block sm:hidden">
         <img class="w-[100px]" src="../assets/images/1372.jpg" alt="squid-1372">
       </div>
