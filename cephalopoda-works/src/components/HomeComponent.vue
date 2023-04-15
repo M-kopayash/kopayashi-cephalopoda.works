@@ -8,7 +8,7 @@
     name: 'HomeComponent',
     props: {
       msg: String
-    }
+    },
   }
 </script>
 
