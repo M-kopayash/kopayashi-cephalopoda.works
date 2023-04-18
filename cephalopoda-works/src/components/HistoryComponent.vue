@@ -2,6 +2,13 @@
     <h2 class="mt-4">更新履歴：</h2>
     <div class="px-4 text-left max-w-[650px] mx-auto"> 
         <hr>
+        <p>20230418：</p>
+        <ul class="history-ul">
+            <li>html/cssで同じことを繰り返し書くのに飽き飽きしたのでDBを導入します。。。</li>
+            <li>大げさだけど、勉強を兼ねてバックエンドを作ってみようかしらと思います。</li>
+            <li>勉強が必要なので、少し更新頻度は落ちる見込みっす。</li>
+        </ul>
+        <hr>
         <p>20230414：</p>
         <ul class="history-ul">
             <li>ハンバーガーメニューを少し奇麗にした（難しい…）</li>
