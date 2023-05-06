@@ -1,5 +1,5 @@
 <template>
-  <p class="text-sm pt-8 font-normal">【非公式】【黙認】</p>
+  <p class="text-sm pt-8 font-normal">【非公式】【黙認】【杉本公認】</p>
   <h1 class="pt-2">イカタコ研究所設立準備室</h1>
   <nav class="flex flex-wrap  mt-4 ml-4">
     <div class="block sm:hidden">
