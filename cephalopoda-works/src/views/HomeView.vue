@@ -11,7 +11,7 @@ import HomeComponent from "@/components/HomeComponent.vue";
 export default defineComponent({
   name: 'HomeView',
   components: {
-    HomeComponent,
+    HomeComponent
   },
 });
 </script>
