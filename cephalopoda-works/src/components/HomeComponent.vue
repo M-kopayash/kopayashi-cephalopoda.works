@@ -1,5 +1,5 @@
 <template>
-  <p class="mb-8">これから書き足していきます。ボチボチやっていきますー。</p>
+  <p class="mb-8">これから書き足していきます。ボチボチやっていきますーyo。</p>
   <img src="../assets/images/1373.jpg" alt="squid-1373">
 </template>
 
@@ -8,7 +8,7 @@
     name: 'HomeComponent',
     props: {
       msg: String
-    }
+    },
   }
 </script>
 

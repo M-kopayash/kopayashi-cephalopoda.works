@@ -2,6 +2,26 @@
     <h2 class="mt-4">更新履歴：</h2>
     <div class="px-4 text-left max-w-[650px] mx-auto"> 
         <hr>
+        <p>20230506：</p>
+        <ul class="history-ul">
+            <li>杉本親要先生のページにリンクを設定</li>
+            <li>バックエンドは未知なので時間がかかるかもってことで、チマチマ中身も書くことにした。</li>
+            <li><router-link class="text-blue-500 hover:text-blue-700 font-bold" to="/kopa">発酵野郎タブ/飼育が大変</router-link>を大幅に加筆。書きすぎた気がする。。。</li>
+            <li>なぜかオートリロードが動いている。便利になったけど、なんでなのか・・・。</li>
+        </ul>
+        <hr>
+        <p>20230418：</p>
+        <ul class="history-ul">
+            <li>html/cssで同じことを繰り返し書くのに飽き飽きしたのでDBを導入します。。。</li>
+            <li>大げさだけど、勉強を兼ねてバックエンドを作ってみようかしらと思います。</li>
+            <li>勉強が必要なので、少し更新頻度は落ちる見込みっす。</li>
+        </ul>
+        <hr>
+        <p>20230414：</p>
+        <ul class="history-ul">
+            <li>ハンバーガーメニューを少し奇麗にした（難しい…）</li>
+        </ul>
+        <hr>
         <p>20230413：</p>
         <ul class="history-ul">
             <li>スマフォ用にハンバーガーメニューを作ってみた（難しい…）</li>
@@ -128,4 +148,8 @@ export default defineComponent({
 hr {
     @apply mt-4 mb-2;
 }
+.router-link {
+    @apply text-blue-500 hover:text-blue-700 font-bold;
+}
+
 </style>
