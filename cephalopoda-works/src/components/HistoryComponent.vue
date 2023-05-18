@@ -2,6 +2,15 @@
     <h2 class="mt-4">更新履歴：</h2>
     <div class="px-4 text-left max-w-[650px] mx-auto"> 
         <hr>
+        <p>20230518：</p>
+        <ul class="history-ul">
+            <li><router-link class="text-blue-500 hover:text-blue-700 font-bold" to="/sugimoto">杉本親要先生が文章を書いてくれた</router-link>よ！ありがとね！</li>
+            <li>コンテンツ（データ）が増えてきてどうにかしたい、、、。バックエンドはまだ手が付けられていないし、Jsonに書き出して読み込ませようかな。。。</li>
+            <li>vueってangularのserviceみたいの使えるのかな。ないわけないよな。そのうち調べてみよう。</li>
+            <li>vueのcomponentとViewって・・・？って思ってたけど、componentか！部品をコンポーネント化して、viewで呼べばいいのか！気が付かなかった。。。ということで徐々にコンポーネント化中。</li>
+            <li>まだオートリロードが動いている。時々止まっている気もするけども、どういうことなんだろう。</li>
+        </ul>
+        <hr>
         <p>20230506：</p>
         <ul class="history-ul">
             <li>杉本親要先生のページにリンクを設定</li>
