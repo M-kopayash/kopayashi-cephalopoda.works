@@ -26,11 +26,12 @@ export default defineComponent({
         },
     },
     computed: {
-        // 改行コードを改行に変更
+        // 改行コードを改行タグに変更
         formattedContent() {
-            return this.content.replace(/\n/g, '<br>');
+            return this.content.replace(/\r?\n|\r/g, '</p><p class="mt-4">');
         }
     }
 });
 </script>
-<style scoped></style>
+<style scoped>
+</style>
