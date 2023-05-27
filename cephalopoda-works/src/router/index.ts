@@ -1,36 +1,36 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
-import Home from '../views/Home.vue'
+import HomePlace from '../views/HomePlace.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'home',
-    component: Home
+    component: HomePlace
   },
   { 
     path: '/ikeda',
     name: 'ikeda',
-    component: () => import('@/views/Ikeda.vue'),
+    component: () => import('@/views/IkedaContents.vue'),
   },
   {
     path: '/kopa',
     name: 'kopa',
-    component: () => import('@/views/Kopa.vue'),
+    component: () => import('@/views/KopaContents.vue'),
   },
   {
     path: '/sugimoto',
     name: 'sugimoto',
-    component: () => import('../views/Sugimoto.vue'),
+    component: () => import('../views/SugimotoContents.vue'),
   },
   {
     path: '/cephalopoda',
     name: 'cephalopoda',
-    component: () => import('@/views/Cephalopoda.vue'),
+    component: () => import('@/views/CephalopodaKnowledge.vue'),
   },
   {
     path: '/gallery',
     name: 'gallery',
-    component: () => import('@/views/Gallery.vue'),
+    component: () => import('@/views/CephalopodaGallery.vue'),
   },
   {
     path: '/about',
@@ -38,12 +38,12 @@ const routes: Array<RouteRecordRaw> = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/AboutUs.vue')
   },
   {
     path: '/history',
     name: 'history',
-    component: () => import('@/views/History.vue'),
+    component: () => import('@/views/UpdateHistory.vue'),
   },
 ]
 

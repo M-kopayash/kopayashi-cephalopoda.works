@@ -2,6 +2,16 @@
     <h2 class="mt-4">更新履歴：</h2>
     <div class="px-4 text-left max-w-[650px] mx-auto"> 
         <hr>
+        <p>20230526：</p>
+        <ul class="history-ul">
+            <li>コンポーネントとViewの役割に合わせてリファクタリングした</li>
+            <li>InfoCardとToggleCardコンポーネントを作成した</li>
+            <li>コンテンツをJsonに書き出して、それを読み込むようにした。とりあえずコンテンツとソースを分離できたのでメデタイ。よかったよかった。データベースを導入するとバックエンドの話しになって、やったことないから時間かかりそうだったのよ。とりあえずは分離できたのでヨシ！</li>
+            <li>もしかして、コンテンツ追加するだけならJson差し替えでOKで、コンパイルしなくて良くなるのだろうか。もしそうなら素敵だ。</li>
+            <li>コンテンツ追加が楽になったのなら、タイミングみて追加しよう。</li>
+            <li>TODO：リストになってるコンテンツ（ここ、History）を表示するコンポーネント作って、Jsonに外だしする。</li>
+        </ul>
+        <hr>
         <p>20230518：</p>
         <ul class="history-ul">
             <li><router-link class="text-blue-500 hover:text-blue-700 font-bold" to="/sugimoto">杉本親要先生が文章を書いてくれた</router-link>よ！ありがとね！</li>
@@ -148,7 +158,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-    name: 'HistoryComponent',
+    name: 'UpdateHistory',
 })
 </script>
 

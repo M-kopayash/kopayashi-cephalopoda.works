@@ -8,13 +8,14 @@
     </h3>
     <div v-if="isContentOpen || !isPhone">
       <p class="mt-4" :class="contentClass" v-html="formattedContent"></p>
-      <hr class="mt-2" />
+      <hr class="mt-2 mb-4" />
     </div>
   </div>
 </template>
 
 <script>
 import { defineComponent } from "vue";
+
 export default defineComponent({
   name: "ToggleCard",
   props: {

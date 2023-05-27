@@ -1,5 +1,5 @@
 <template>
-    <h2 class="mt-2">発酵野郎とイカタコ</h2>
+    <h2 class="mt-2">発酵野郎とイカタコsss</h2>
     <div class="px-4 text-left max-w-[650px] mx-auto">
         <p>杉本先生から発酵野郎から見たイカタコも書くようにとのご指示をいただきました。身バレしてしまいそうだけれども、まぁこの際仕方ないと考えて書いてしまおう。</p>
         <p>自己紹介まではいかないけれども → <a class="link" href="http://hakkouyarou.com">発酵野郎様のブログ</a></p>
