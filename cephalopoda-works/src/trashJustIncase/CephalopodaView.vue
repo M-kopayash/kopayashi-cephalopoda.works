@@ -1,5 +1,5 @@
 <template>
-    <CephalopodaComponent msg=""/>
+    <!-- <CephalopodaComponent msg=""/> -->
 </template>
 
 <script lang="ts">

@@ -1,36 +1,36 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Home from '../views/Home.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: Home
   },
   { 
     path: '/ikeda',
     name: 'ikeda',
-    component: () => import('@/views/IkedaView.vue'),
+    component: () => import('@/views/Ikeda.vue'),
   },
   {
     path: '/kopa',
     name: 'kopa',
-    component: () => import('@/views/KopaView.vue'),
+    component: () => import('@/views/Kopa.vue'),
   },
   {
     path: '/sugimoto',
     name: 'sugimoto',
-    component: () => import('../views/SugimotoView.vue'),
+    component: () => import('../views/Sugimoto.vue'),
   },
   {
     path: '/cephalopoda',
     name: 'cephalopoda',
-    component: () => import('@/components/CephalopodaComponent.vue'),
+    component: () => import('@/views/Cephalopoda.vue'),
   },
   {
     path: '/gallery',
     name: 'gallery',
-    component: () => import('@/views/GalleryView.vue'),
+    component: () => import('@/views/Gallery.vue'),
   },
   {
     path: '/about',
@@ -38,12 +38,12 @@ const routes: Array<RouteRecordRaw> = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
     path: '/history',
     name: 'history',
-    component: () => import('@/components/HistoryComponent.vue'),
+    component: () => import('@/views/History.vue'),
   },
 ]
 

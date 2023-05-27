@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <HomeComponent/>
+    <p class="mb-8">これから書き足していきます。ボチボチやっていきますー。</p>
+  <img src="../assets/images/1373.jpg" alt="squid-1373">
   </div>
   <div>
     <ul>
@@ -13,7 +14,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HomeComponent from "@/components/HomeComponent.vue";
+// import HomeComponent from "@/components/HomeComponent.vue";
 import ToggleCard from '@/components/ToggleCard.vue';
 import jsonData from "../contents/test.json";
 
@@ -24,7 +25,7 @@ interface Item {
 export default defineComponent({
   name: 'HomeView',
   components: {
-    HomeComponent,
+    // HomeComponent,
     ToggleCard,
   },
   data() {
