@@ -8,7 +8,6 @@
     <ul>
       <li v-for="item in items" :key="item.title">
         <ToggleCard :title="item.title" :content="item.content"/>
-
       </li>
     </ul>
   </div>
