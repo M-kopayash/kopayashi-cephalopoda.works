@@ -12,7 +12,7 @@
         <li class="" :class="contentClass" v-html="formattedContent">
         </li>
       </ul>
-      <hr class="mt-2 mb-4" />
+      <hr class="mt-2 mb-4" :class="hrClass"/>
     </div>
   </div>
 </template>
@@ -37,6 +37,9 @@ export default defineComponent({
     contentClass: {
       type: String,
     },
+    hrClass: {
+      type: String,
+    }
   },
   computed: {
     // 改行コードをlistタグに変更
