@@ -8,7 +8,7 @@
     </h3>
     <div v-if="isContentOpen || !isPhone">
       <p class="mt-4" :class="contentClass" v-html="formattedContent"></p>
-      <hr class="mt-2 mb-4" />
+      <hr class="mt-2 mb-4" :class="hrClass"/>
     </div>
   </div>
 </template>
@@ -33,6 +33,9 @@ export default defineComponent({
     contentClass: {
       type: String,
     },
+    hrClass: {
+      type: String,
+    }
   },
   computed: {
     // 改行コードを改行タグに変更
