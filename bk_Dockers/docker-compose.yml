@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  node:
+    container_name: cephalopod-vue-node
+    build:
+      context: .
+      dockerfile: ./.devcontainer/Dockerfile
+    ports:
+      - 80:8080
+    restart: always
+    tty: true
+    volumes:
+      - ./app:/app
