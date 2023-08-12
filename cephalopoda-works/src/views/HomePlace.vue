@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <p class="mb-8">これから書き足していきます。ボチボチやっていきます..</p>
+    <p class="mb-8">これから書き足していきます。ボチボチやっていきます。</p>
     <img src="../assets/images/1373.jpg" alt="squid-1373" />
   </div>
 </template>
